@@ -1,0 +1,31 @@
+.header{
+  background-color: blue;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.box-container {
+  margin: 20px;
+  padding: 2px 15px 15px;
+  /* border: 2px #ccc solid; */
+  box-shadow: -1px 4px 6px 1px #00000061;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.btn-custom {
+  padding: 5px 20px;
+  margin: 5px;
+  background-color: deepskyblue;
+  border: 2px #c1c1ef solid;
+}
+
+.btn-custom:hover {
+  background-color: rgb(69, 131, 152);
+  transition: .8s;
+  cursor: pointer;
+}
